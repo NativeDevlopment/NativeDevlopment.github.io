@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.airtel.agilelabs.retailerapp.sit",
+    "sha256_cert_fingerprints":
+    ["07:ED:E1:92:96:4A:18:36:61:9B:1E:8A:52:FE:E7:84:FA:62:3B:88:1D:EA:FA:B7:D5:92:67:CE:7B:F9:48:63"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://nativedevlopment.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.airtel.agilelabs.retailerapp.sit",
+    "sha256_cert_fingerprints":
+    ["07:ED:E1:92:96:4A:18:36:61:9B:1E:8A:52:FE:E7:84:FA:62:3B:88:1D:EA:FA:B7:D5:92:67:CE:7B:F9:48:63"]
+  }
+}]
